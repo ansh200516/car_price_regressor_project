@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import pickle
-import sklearn
 data = pd.DataFrame(pickle.load(open('data.pkl', 'rb')))
 st.markdown("""
     <style>
